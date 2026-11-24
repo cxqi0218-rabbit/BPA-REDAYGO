@@ -4,7 +4,7 @@
  classes = {};
  objectVersion = 56;
  objects = {
-  A00000000000000000000015 = {isa = PBXFileReference; lastKnownFileType = image.png; path = EntrywayBackground.png; sourceTree = "<group>"; };
+  A00000000000000000000015 = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EntrywayBackground.jpg; sourceTree = "<group>"; };
   A00000000000000000000016 = {isa = PBXBuildFile; fileRef = A00000000000000000000015; };
   A00000000000000000000001 = {isa = PBXBuildFile; fileRef = A00000000000000000000003; };
   A00000000000000000000002 = {isa = PBXBuildFile; fileRef = A00000000000000000000004; };

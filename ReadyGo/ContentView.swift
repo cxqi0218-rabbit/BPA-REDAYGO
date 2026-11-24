@@ -14,7 +14,7 @@ private struct GlassBackdrop: View {
     var body: some View {
         GeometryReader { geometry in
             ZStack {
-                if let path = Bundle.main.path(forResource: "EntrywayBackground", ofType: "png"), let photo = UIImage(contentsOfFile: path) {
+                if let path = Bundle.main.path(forResource: "EntrywayBackground", ofType: "jpg"), let photo = UIImage(contentsOfFile: path) {
                     Image(uiImage: photo).resizable().scaledToFill().frame(width: geometry.size.width, height: geometry.size.height).clipped().blur(radius: 6)
                 } else { Palette.background }
                 Color(red: 0.91, green: 0.94, blue: 0.94).opacity(0.32)
